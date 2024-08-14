@@ -1,6 +1,6 @@
 # imap-daemon-notifier
-IMAP **listener** to send instant **push notifications** when a new email is received using **IMAP-IDLE**.
-This Python Script was made for my private use, as my Universities email service does not provide push notifications, and constand Fetching on Mobile devices caused huge battery drain issue, while still being not instantaneous. 
+An IMAP listener that sends instant **push notifications** when a new email is received using **IMAP-IDLE**. 
+This Python script was created for my private use because my university's email service does not provide push notifications. Constant fetching on mobile devices caused significant battery drain issues while still not being instantaneous.
 
 ![Screenshot](https://github.com/user-attachments/assets/afe3921f-50d9-4dbf-9a52-982fbec88f15)
 
