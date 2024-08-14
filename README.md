@@ -28,18 +28,22 @@ Please fill the `.env` with your credentials. A template has been provided.
 
 ## Tips and Tricks
 **No Output to tty:**
-nohup python3 imap.py > /dev/shm/imap-idle-output.log &
+`nohup python3 imap.py > /dev/shm/imap-idle-output.log &`
 
 **Blend output to tty:**
-nohup python3 imap.py | tee /dev/shm/imap-idle-output.log &
+`nohup python3 imap.py | tee /dev/shm/imap-idle-output.log &`
 
 **Kill the background task:**
+```
 ps aux | grep imap
 kill PID
+```
 
 **To read the log:**
+```
 tail -f /dev/shm/imap-idle-output.log
 cat /dev/shm/imap-idle-output.log
+```
 
 ## Note
 I no longer use this script, so I am making it public, use at your own discretion. No Warranty is provided.
