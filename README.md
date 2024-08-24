@@ -19,7 +19,7 @@ This Python script was created for my private use because my university's email 
 python3 -m venv pyenv
 
 .\pyenv\Scripts\Activate.ps1 (Powershell)
-source pyenvwsl/bin/activate (Bash)
+source pyenv/bin/activate (Bash)
 
 python3 -m pip install -r requirements.txt
 ```
